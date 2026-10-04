@@ -34,15 +34,6 @@
 
 ---
 
-## 📱 Preview & Visualizations
-
-<div align="center">
-  <img src="assets/images/maze/ucs_solution.png" alt="Uniform Cost Search Grid Traversal" width="45%" style="margin: 6px; border-radius: 8px;" />
-  <img src="assets/images/maze/bfs_solution.png" alt="Breadth-First Search Grid Traversal" width="45%" style="margin: 6px; border-radius: 8px;" />
-</div>
-
----
-
 ## 🎯 Purpose & Scope
 
 ### Why It Exists
@@ -76,7 +67,6 @@ This repository centralizes academic coursework and computational laboratory ass
   - Evaluated on a 7×7 grid benchmark.
   - Stress-tested under normal penalty (cost 5) vs. heavy mud penalty (cost 10) to observe dynamic path diversion.
   - Includes discussion analyzing frontier memory consumption, neighbor expansion order sensitivity, and optimality guarantees.
-- **Optimization Note:** Extracted 4 large embedded base64 screenshots into [`assets/images/maze/`](./assets/images/maze/) to reduce notebook file size by 99.8% (from ~10.6 MB down to ~21 KB) for instant web rendering on GitHub.
 
 #### 2. Bangladesh Inter-District Road Routing with A* Search (`02_bangladesh_district_navigation_astar.ipynb`)
 - **Objective:** Compute the optimal travel path between administrative districts of Bangladesh using the informed A* search algorithm.
@@ -148,15 +138,8 @@ academic-colab-notebooks/
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
-├── 01_maze_search_algorithms.ipynb             # Assignment 1: BFS, DFS, IDS, UCS on weighted grid (21 KB)
-├── 02_bangladesh_district_navigation_astar.ipynb # Project: A* geospatial routing over 64 districts
-└── assets/
-    └── images/
-        └── maze/
-            ├── bfs_solution.png                # Extracted BFS traversal visualization
-            ├── dfs_solution.png                # Extracted DFS traversal visualization
-            ├── ids_solution.png                # Extracted IDS traversal visualization
-            └── ucs_solution.png                # Extracted UCS traversal visualization
+├── 01_maze_search_algorithms.ipynb             # Assignment 1: BFS, DFS, IDS, UCS on weighted grid
+└── 02_bangladesh_district_navigation_astar.ipynb # Project: A* geospatial routing over 64 districts
 ```
 
 ---
