@@ -1,23 +1,22 @@
-# Jupyter Notebook Checkpoints
+# Jupyter Checkpoints
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
 
-# Python cache
+# OS and Google Drive sync artifacts
+Desktop.ini
+Thumbs.db
+.DS_Store
+*.tmp
+~$*
+
+# Python cache & environments
 __pycache__/
 *.py[cod]
-*$py.class
-
-# Environments
 venv/
 .venv/
-env/
-.env
 
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Academic Practice Drafts (kept in Google Drive, excluded from git repo)
+archive_*
+bfs_tree_traversal_practice.ipynb
+intro_machine_learning_practice.ipynb
+titanic_data_analysis_tutorial.ipynb
